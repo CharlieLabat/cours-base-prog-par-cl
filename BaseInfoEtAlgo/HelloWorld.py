@@ -1,4 +1,4 @@
-# Un classique pour montrer comment marche l'informatique : Bonjour le monde
+# Un classique pour montrer comment marche l'informatique : Salut le monde
 print("Hello World")
 # Varions ce Hello World 
 def hello(mot) :
