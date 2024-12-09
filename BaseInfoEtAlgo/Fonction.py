@@ -28,3 +28,21 @@ print(posOuNeg(-5))
 print(posOuNeg(0))
 
 
+# Boucles
+# Conditionnelle : Tant que la condition est vrai, le programme fonction
+def monterUnEscalier(seuil):
+    pas = 0
+    while pas != seuil:
+        print(str(pas) + " pas" ) 
+        pas=pas+1
+    return("Vous avez " + str(pas) + " pas ! ")
+
+print(monterUnEscalier(20))
+
+# Graduelle : Pour chaque element, le programme execute et l'indice augmente 
+def monterUnEscalier2(seuil):
+        for i in range(seuil) :
+            print(str(i) + " pas" ) 
+        return("Vous avez " + str(i) + " pas ! ")
+
+print(monterUnEscalier2(50))
