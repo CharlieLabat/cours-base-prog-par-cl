@@ -20,8 +20,13 @@ print ("false et true sont des booléens, des mots clés qui expriment le résul
 # C'est le premier nombre !
 
 chiffre = [0,1,2,3,4,5,6,7,8,9]
+abc=  ["a","b","c","d"]
 
 for i in chiffre:
-    print(str(i)+ " est un élément de la liste")
+    print(str(i)+ " est un élément de la liste de chiffre")
+for let in abc:
+      print(let+ " est un élément de la liste de abc")
 
-print(str(len(chiffre))+" est le total d'élément")
+
+print(str(len(chiffre))+" est le total d'élément de chiffre")
+print(str(len(abc))+" est le total d'élément de abc")
