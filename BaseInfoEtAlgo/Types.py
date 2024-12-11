@@ -30,3 +30,8 @@ for let in abc:
 
 print(str(len(chiffre))+" est le total d'élément de chiffre")
 print(str(len(abc))+" est le total d'élément de abc")
+
+print(abc[0] + abc[3] +abc[2] + abc[3])
+
+if(False and True):
+     print("C'est toujours vrai")
